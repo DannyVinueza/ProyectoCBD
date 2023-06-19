@@ -1,0 +1,30 @@
+<section class="page-section mt-5" id="form">
+    <form class="contForm">
+        <div class="form-group">
+            <label for="titulo">Titulo:</label>
+            <input type="text" id="titulo" name="titulo" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="fecha">Fecha de finalizacion del portafolio:</label>
+            <input type="date" id="fecha" name="fecha" required>
+        </div>
+        <div class="form-group">
+            <label for="categoria">Categoria:</label>
+            <select id="categoria" name="categoria" required>
+                <option value="">Seleccione...</option>
+                <option value="individual">Individual</option>
+                <option value="doble">Grupal</option>
+                <option value="suite">Fin de proyecto</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="descripcion">Descripción:</label>
+            <textarea class="form-control" id="descripcion" type="text" placeholder="Enter your message here..." style="height: 10rem" required name="descripcion"></textarea>
+        </div>
+        <button class="btn btn-primary btn-xl" type="submit">Guardar</button>
+    </form>
+</section>

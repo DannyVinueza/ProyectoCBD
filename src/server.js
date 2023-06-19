@@ -46,6 +46,7 @@ app.get('/',(req,res)=>{
 app.use(require('./routers/index.routes'))
 app.use(require('./routers/portafolio.routes'))
 app.use(require('./routers/user.routes'))
+app.use(require('./routers/form.routes'))
 
 // Archivos estáticos
 app.use(express.static(path.join(__dirname,'public')))
